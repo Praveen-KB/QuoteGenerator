@@ -5,15 +5,36 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Quote Generator</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=jacinto.design">
+    <link rel="icon" type="image/png" href="4944229.png">
 </head>
 
 <body>
-    <i class="fa-sharp fa-solid fa-house"></i>
+    <div class="quoteCont" id="quoteCont">
+        <!-- Quote -->
+        <div class="quoteText">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"></span>
+        </div>
+        <!-- Author -->
+        <div class="quote-aut">
+            <span id="aut"></span>
+        </div>
+        <!-- buttons -->
+        <div class="buttonCont">
+            <button class="twitterBtn" id="twitter" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="newQuote">New Quote</button>
+        </div>
+
+    </div>
+    <!-- <div class="loader"></div> -->
+    <div class="loader" id="loader"></div>
     <!-- script -->
+    <script src="quotes.js"></script>
     <script src="script.js"></script>
 </body>
 
